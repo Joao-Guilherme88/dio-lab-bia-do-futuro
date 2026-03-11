@@ -5,39 +5,40 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+ALERTA DE GASTOS
+Pessosa não tem controle muitas vezes dos valores que gasta no mes e acaba fazendo mais divida do que irá receber.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Um agente que vá mandando alerta de valores que pode gastar, ele limita um valor de 2000 para gastar e ao ir gastando o sistema vai avisando o valor que ainda tem para gastar.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Para pessoas que não tem controle nos gastos e pessoas que são organizados e irá ajudar.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+> Jade(controle de gastos)
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
-
-[Sua descrição aqui]
+> Educativo e paciente
+> Usa exemplos praticos
+> Nunca julga os gastos do cliente
+> Direto
 
 ### Tom de Comunicação
-> Formal, informal, técnico, acessível?
+> Formal, informal, técnico, acessível
 
-[Sua descrição aqui]
-
+> Informal, acessivel e didatico, como um professor particular
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Olá eu sou Jade, seu limitador financeiro, qual valor deseja gastar hoje?"
+- Confirmação: "Deixa eu te explicar a melhor forma de limitar seus gastos, usando uma analogia...."
+- Erro/Limitação: "Não posso cortar seus gastos só posso te mostrar os valores que você pode gastar hoje ou decorrer do mês"
 
 ---
 
@@ -59,10 +60,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Mensagens] |
+| LLM | [Ollama(local)] |
+| Base de Conhecimento | [ JSON/CSV com dados do cliente] |
+| Validação | [ Checagem de alucinações] |
 
 ---
 
@@ -70,12 +71,13 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] [ Agente só responde com base nos dados fornecidos]
+- [ ] [ Não faz bloqueio dos valores]
+- [ ] [ex:admitir quando não sabe de algoa]
+- [ ] [ Fcoo é somente para controlar gastos e evitar perder controle]
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+Não bloqueia volres
+Não faz recomendações de investimnneto
