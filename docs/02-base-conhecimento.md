@@ -2,17 +2,12 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
-
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Para que serve na jade? |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores sempre dar continuidade ao atendimento de forma mais eficiente. |
+| `perfil_investidor.json` | JSON | Personalizar as explicações sobre controle de gastos. |
+| `produtos_financeiros.json` | JSON | Sugerir ou perguntar se é viavel aqueles gastos. |
+| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e elaborar uma forma de reduzir gastos |
 
 ---
 
